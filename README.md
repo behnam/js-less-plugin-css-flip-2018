@@ -1,12 +1,12 @@
-less-plugin-css-flip
-=====================
+less-plugin-css-flip-2018
+=========================
 
 Generate left-to-right (LTR) or right-to-left (RTL) CSS from Less using css-flip.
 
 ## lessc usage
 
 ```
-npm install -g less-plugin-css-flip
+npm install -g less-plugin-css-flip-2018
 ```
 
 and then on the command line,
@@ -20,10 +20,10 @@ See [css-flip](https://github.com/twitter/css-flip) for the available command op
 ## Programmatic usage
 
 ```
-var LessPlugincss-flip = require('less-plugin-css-flip'),
+var LessPlugincss-flip = require('less-plugin-css-flip-2018'),
     css-flipPlugin = new LessPlugincss-flip();
 less.render(lessString, { plugins: [css-flipPlugin] })
-  .then(
+    .then(
 ```
 
 ## Browser usage
